@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bisleriuget.Auditing.Contracts", "Bisleriuget.Auditing.Contracts\Bisleriuget.Auditing.Contracts.csproj", "{8332E513-DDA5-43B8-BC87-A27BCCDFE92E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bisleriuget.Auditing.EntityFrameworkCore.Extensions", "Bisleriuget.Auditing.EntityFrameworkCore.Extensions\Bisleriuget.Auditing.EntityFrameworkCore.Extensions.csproj", "{69ECCCFB-7D08-4198-9BCC-2D811C7602DC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{8332E513-DDA5-43B8-BC87-A27BCCDFE92E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8332E513-DDA5-43B8-BC87-A27BCCDFE92E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8332E513-DDA5-43B8-BC87-A27BCCDFE92E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69ECCCFB-7D08-4198-9BCC-2D811C7602DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69ECCCFB-7D08-4198-9BCC-2D811C7602DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69ECCCFB-7D08-4198-9BCC-2D811C7602DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69ECCCFB-7D08-4198-9BCC-2D811C7602DC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
