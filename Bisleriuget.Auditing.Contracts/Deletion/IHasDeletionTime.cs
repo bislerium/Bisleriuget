@@ -4,7 +4,7 @@
     /// Represents an entity that tracks its deletion time and supports soft deletion.
     /// </summary>
     /// <typeparam name="TDateTime">The type used to represent the deletion timestamp (e.g., DateTime, DateTimeOffset).</typeparam>
-    public interface IHasDeletionTime<TDateTime> : ISoftDeletable, IAuditKind
+    public interface IHasDeletionTime<TDateTime> : ISoftDeletable
         where TDateTime : struct
     {
         /// <summary>

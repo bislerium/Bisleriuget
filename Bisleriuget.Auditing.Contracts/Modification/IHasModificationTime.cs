@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Bisleriuget.Auditing.Contracts.Modification
+﻿namespace Bisleriuget.Auditing.Contracts.Modification
 {
     /// <summary>
     /// Represents an entity that tracks the last modification time.
