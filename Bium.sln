@@ -1,8 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bisleriuget.Auditing.Contracts", "Bisleriuget.Auditing.Contracts\Bisleriuget.Auditing.Contracts.csproj", "{8332E513-DDA5-43B8-BC87-A27BCCDFE92E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bium.Auditing.Contracts", "Bium.Auditing.Contracts\Bium.Auditing.Contracts.csproj", "{8332E513-DDA5-43B8-BC87-A27BCCDFE92E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bisleriuget.Auditing.EntityFrameworkCore.Extensions", "Bisleriuget.Auditing.EntityFrameworkCore.Extensions\Bisleriuget.Auditing.EntityFrameworkCore.Extensions.csproj", "{FC7E30DC-311A-42AE-BFC8-C9434E5FBB2C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bium.Auditing.EntityFrameworkCore.Extensions", "Bium.Auditing.EntityFrameworkCore.Extensions\Bium.Auditing.EntityFrameworkCore.Extensions.csproj", "{FC7E30DC-311A-42AE-BFC8-C9434E5FBB2C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
