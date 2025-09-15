@@ -1,3 +1,4 @@
+using System;
 using Bium.Auditing.Contracts.Entity;
 
 namespace Bium.Auditing.Contracts.Deletion
