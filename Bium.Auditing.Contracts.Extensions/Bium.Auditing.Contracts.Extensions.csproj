@@ -11,7 +11,7 @@
         <!-- Package metadata-->
         <PackageId>Bium.Auditing.Contracts.Extensions</PackageId>
         <PackageTags>Auditing, Audit, Auditable, Domain-Entities, Creation, Modification, Deletion, SoftDelete, Soft-Delete, Extensions</PackageTags>
-        <Version>1.0.0</Version>
+        <Version>1.0.1</Version>
         <Authors>Bishal Gharti Chhetri</Authors>
         <Description>Extension methods for auditing entities, supporting creation, modification, deletion, soft delete, and tracking creators, modifiers, and deleters.</Description>
         <RepositoryUrl>https://github.com/bislerium/Bisleriuget/tree/main/Bium.Auditing.Contracts.Extensions</RepositoryUrl>
@@ -20,7 +20,8 @@
         <Copyright>Copyright (c) Bishal Gharti Chhetri 2025</Copyright>
         <PackageReadmeFile>README.md</PackageReadmeFile>
         <PackageReleaseNotes>
-            - Initial Release
+            - XML documentation comments for all public APIs.
+            - Consumers will now see tooltips and summaries in Visual Studio or other IDEs when referencing the package.
         </PackageReleaseNotes>
     </PropertyGroup>
 
