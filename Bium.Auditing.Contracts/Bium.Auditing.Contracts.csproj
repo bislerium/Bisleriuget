@@ -6,7 +6,7 @@
 
         <!-- Package metadata-->
         <PackageId>Bium.Auditing.Contracts</PackageId>
-        <PackageTags>Auditing, Audit, Creation, Modification, Deletion, Soft-Delete, ORM, EntityFrameworkCore</PackageTags>
+        <PackageTags>Auditing, Audit, Auditable, Domain-Entities, Creation, Modification, Deletion, SoftDelete, Soft-Delete</PackageTags>
         <Version>1.0.1</Version>
         <Authors>Bishal Gharti Chhetri</Authors>
         <Description>Reusable interfaces for auditing entities, supporting creation, modification, deletion, soft delete, and user tracking.</Description>
