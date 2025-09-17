@@ -3,6 +3,7 @@
     <PropertyGroup>
         <TargetFrameworks>net5.0;net6.0;net7.0;net8.0;net9.0</TargetFrameworks>
         <Nullable>enable</Nullable>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
 
         <!-- Generate .nupkg and .snupkg -->
         <IncludeSymbols>true</IncludeSymbols>
@@ -26,6 +27,7 @@
 
     <ItemGroup>
         <PackageReference Include="Bium.Auditing.Contracts" Version="1.*"/>
+        <PackageReference Include="Bium.Auditing.Contracts.Extensions" Version="1.0.0" />
     </ItemGroup>
 
     <ItemGroup Condition="'$(TargetFramework)' == 'net5.0'">
@@ -54,10 +56,6 @@
     
     <ItemGroup>
         <None Include="LICENSE.txt" Pack="true" Visible="true" PackagePath=""/>
-    </ItemGroup>
-    
-    <ItemGroup>
-      <ProjectReference Include="..\Bium.Auditing.Contracts.Extensions\Bium.Auditing.Contracts.Extensions.csproj" />
     </ItemGroup>
 
 </Project>

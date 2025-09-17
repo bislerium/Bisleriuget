@@ -2,6 +2,7 @@
 
     <PropertyGroup>
         <TargetFramework>netstandard2.1</TargetFramework>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
 
         <!-- Generate .nupkg and .snupkg -->
         <IncludeSymbols>true</IncludeSymbols>
