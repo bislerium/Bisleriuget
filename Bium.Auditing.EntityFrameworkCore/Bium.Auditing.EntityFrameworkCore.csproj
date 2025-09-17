@@ -14,8 +14,8 @@
         <PackageTags>Auditing, Audit, Auditable, Domain-Entities, Creation, Modification, Deletion, SoftDelete, Soft-Delete, ORM, EntityFrameworkCore</PackageTags>
         <Version>1.0.0</Version>
         <Authors>Bishal Gharti Chhetri</Authors>
-        <Description>Reusable interfaces for auditing entities, supporting creation, modification, deletion, soft delete, and user tracking.</Description>
-        <RepositoryUrl>https://github.com/bislerium/Bisleriuget/tree/main/Bium.Auditing.Contracts</RepositoryUrl>
+        <Description>Automatic auditing for EF Core entities, supporting creation, modification, deletion, soft delete, and user tracking.</Description>
+        <RepositoryUrl>https://github.com/bislerium/Bisleriuget/tree/main/Bium.Auditing.EntityFrameworkCore</RepositoryUrl>
         <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
         <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
         <Copyright>Copyright (c) Bishal Gharti Chhetri 2025</Copyright>
@@ -26,8 +26,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Bium.Auditing.Contracts" Version="1.*"/>
-        <PackageReference Include="Bium.Auditing.Contracts.Extensions" Version="1.0.0" />
+        <PackageReference Include="Bium.Auditing.Contracts.Extensions" Version="1.*"/>
     </ItemGroup>
 
     <ItemGroup Condition="'$(TargetFramework)' == 'net5.0'">
@@ -53,7 +52,7 @@
     <ItemGroup>
         <None Include="README.md" Pack="true" PackagePath=""/>
     </ItemGroup>
-    
+
     <ItemGroup>
         <None Include="LICENSE.txt" Pack="true" Visible="true" PackagePath=""/>
     </ItemGroup>
