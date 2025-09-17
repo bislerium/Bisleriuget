@@ -2,7 +2,9 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bium.Auditing.Contracts", "Bium.Auditing.Contracts\Bium.Auditing.Contracts.csproj", "{8332E513-DDA5-43B8-BC87-A27BCCDFE92E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bium.Auditing.EntityFrameworkCore.Extensions", "Bium.Auditing.EntityFrameworkCore.Extensions\Bium.Auditing.EntityFrameworkCore.Extensions.csproj", "{FC7E30DC-311A-42AE-BFC8-C9434E5FBB2C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bium.Auditing.EntityFrameworkCore", "Bium.Auditing.EntityFrameworkCore\Bium.Auditing.EntityFrameworkCore.csproj", "{FC7E30DC-311A-42AE-BFC8-C9434E5FBB2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bium.Auditing.Contracts.Extensions", "Bium.Auditing.Contracts.Extensions\Bium.Auditing.Contracts.Extensions.csproj", "{58A431B2-5EB1-49C1-ACF9-C3E0855E8F36}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +20,9 @@ Global
 		{FC7E30DC-311A-42AE-BFC8-C9434E5FBB2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC7E30DC-311A-42AE-BFC8-C9434E5FBB2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC7E30DC-311A-42AE-BFC8-C9434E5FBB2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58A431B2-5EB1-49C1-ACF9-C3E0855E8F36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58A431B2-5EB1-49C1-ACF9-C3E0855E8F36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58A431B2-5EB1-49C1-ACF9-C3E0855E8F36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58A431B2-5EB1-49C1-ACF9-C3E0855E8F36}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
