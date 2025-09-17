@@ -3,6 +3,10 @@
     <PropertyGroup>
         <TargetFramework>netstandard2.1</TargetFramework>
 
+        <!-- Generate .nupkg and .snupkg -->
+        <IncludeSymbols>true</IncludeSymbols>
+        <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+        
         <!-- Package metadata-->
         <PackageId>Bium.Auditing.Contracts.Extensions</PackageId>
         <PackageTags>Auditing, Audit, Auditable, Domain-Entities, Creation, Modification, Deletion, SoftDelete, Soft-Delete, Extensions</PackageTags>
