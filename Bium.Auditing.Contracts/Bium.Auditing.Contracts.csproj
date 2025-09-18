@@ -8,7 +8,7 @@
         <!-- Package metadata-->
         <PackageId>Bium.Auditing.Contracts</PackageId>
         <PackageTags>Auditing, Audit, Auditable, Domain-Entities, Creation, Modification, Deletion, SoftDelete, Soft-Delete</PackageTags>
-        <Version>1.0.2</Version>
+        <Version>1.0.3</Version>
         <Authors>Bishal Gharti Chhetri</Authors>
         <Description>Reusable interfaces for auditing entities, supporting creation, modification, deletion, soft delete, and user tracking.</Description>
         <RepositoryUrl>https://github.com/bislerium/Bisleriuget/tree/main/Bium.Auditing.Contracts</RepositoryUrl>
@@ -16,18 +16,16 @@
         <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
         <Copyright>Copyright (c) Bishal Gharti Chhetri 2025</Copyright>
         <PackageReadmeFile>README.md</PackageReadmeFile>
+        <PackageIcon>ICON.png</PackageIcon>
         <PackageReleaseNotes>
-            - XML documentation comments for all public APIs.
-            - Consumers will now see tooltips and summaries in Visual Studio or other IDEs when referencing the package.
+            - Added package icon.
         </PackageReleaseNotes>
     </PropertyGroup>
 
     <ItemGroup>
         <None Include="README.md" Pack="true" PackagePath=""/>
-    </ItemGroup>
-
-    <ItemGroup>
-        <None Include="LICENSE.txt" Pack="true" Visible="true" PackagePath=""/>
+        <None Include="..\LICENSE.txt" Pack="true" Visible="true" PackagePath=""/>
+        <None Include="..\ICON.png" Pack="true" PackagePath=""/>
     </ItemGroup>
 
 </Project>
