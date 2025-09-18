@@ -12,7 +12,7 @@
         <!-- Package metadata-->
         <PackageId>Bium.Auditing.EntityFrameworkCore</PackageId>
         <PackageTags>Auditing, Audit, Auditable, Domain-Entities, Creation, Modification, Deletion, SoftDelete, Soft-Delete, ORM, EntityFrameworkCore</PackageTags>
-        <Version>1.0.0</Version>
+        <Version>1.0.1</Version>
         <Authors>Bishal Gharti Chhetri</Authors>
         <Description>Automatic auditing for EF Core entities, supporting creation, modification, deletion, soft delete, and user tracking.</Description>
         <RepositoryUrl>https://github.com/bislerium/Bisleriuget/tree/main/Bium.Auditing.EntityFrameworkCore</RepositoryUrl>
@@ -20,8 +20,9 @@
         <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
         <Copyright>Copyright (c) Bishal Gharti Chhetri 2025</Copyright>
         <PackageReadmeFile>README.md</PackageReadmeFile>
+        <PackageIcon>ICON.png</PackageIcon>
         <PackageReleaseNotes>
-            - Initial Release
+            - Added package icon.
         </PackageReleaseNotes>
     </PropertyGroup>
 
@@ -51,10 +52,8 @@
 
     <ItemGroup>
         <None Include="README.md" Pack="true" PackagePath=""/>
-    </ItemGroup>
-
-    <ItemGroup>
-        <None Include="LICENSE.txt" Pack="true" Visible="true" PackagePath=""/>
+        <None Include="..\LICENSE.txt" Pack="true" Visible="true" PackagePath=""/>
+        <None Include="..\ICON.png" Pack="true" PackagePath=""/>
     </ItemGroup>
 
 </Project>

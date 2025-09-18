@@ -41,7 +41,7 @@ trails are applied consistently without manually calling the methods in each rep
 
 ## Interceptor Examples
 
-### 1. `ApplyAuditing()`
+### 1. `ApplyAuditing(dbContext)`
 
 ```csharp
 public class AuditingInterceptor : SaveChangesInterceptor
