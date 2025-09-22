@@ -1,28 +1,31 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFrameworks>net5.0;net6.0;net7.0;net8.0;net9.0</TargetFrameworks>
+        <TargetFrameworks>net5.0;net6.0;net7.0;net8.0;net9.0;net10.0</TargetFrameworks>
         <Nullable>enable</Nullable>
         <GenerateDocumentationFile>true</GenerateDocumentationFile>
 
         <!-- Generate .nupkg and .snupkg -->
         <IncludeSymbols>true</IncludeSymbols>
         <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+        <PublishRepositoryUrl>true</PublishRepositoryUrl>
+        <EmbedUntrackedSources>true</EmbedUntrackedSources>
 
         <!-- Package metadata-->
         <PackageId>Bium.Auditing.EntityFrameworkCore</PackageId>
         <PackageTags>Auditing, Audit, Auditable, Domain-Entities, Creation, Modification, Deletion, SoftDelete, Soft-Delete, ORM, EntityFrameworkCore</PackageTags>
-        <Version>1.0.1</Version>
+        <Version>1.0.2</Version>
         <Authors>Bishal Gharti Chhetri</Authors>
         <Description>Automatic auditing for EF Core entities, supporting creation, modification, deletion, soft delete, and user tracking.</Description>
         <RepositoryUrl>https://github.com/bislerium/Bisleriuget/tree/main/Bium.Auditing.EntityFrameworkCore</RepositoryUrl>
+        <PackageProjectUrl>https://github.com/bislerium/Bisleriuget</PackageProjectUrl>
         <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
         <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
         <Copyright>Copyright (c) Bishal Gharti Chhetri 2025</Copyright>
         <PackageReadmeFile>README.md</PackageReadmeFile>
         <PackageIcon>ICON.png</PackageIcon>
         <PackageReleaseNotes>
-            - Added package icon.
+            - Updated Dependencies
         </PackageReleaseNotes>
     </PropertyGroup>
 
@@ -35,7 +38,7 @@
     </ItemGroup>
 
     <ItemGroup Condition="'$(TargetFramework)' == 'net6.0'">
-        <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.*"/>
+        <PackageReference Include="Microsoft.EntityFrameworkCore" Version="[6.*,8)"/>
     </ItemGroup>
 
     <ItemGroup Condition="'$(TargetFramework)' == 'net7.0'">
@@ -43,11 +46,15 @@
     </ItemGroup>
 
     <ItemGroup Condition="'$(TargetFramework)' == 'net8.0'">
-        <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.*"/>
+        <PackageReference Include="Microsoft.EntityFrameworkCore" Version="[8.*,10)"/>
     </ItemGroup>
 
     <ItemGroup Condition="'$(TargetFramework)' == 'net9.0'">
         <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.*"/>
+    </ItemGroup>
+
+    <ItemGroup Condition="'$(TargetFramework)' == 'net10.0'">
+        <PackageReference Include="Microsoft.EntityFrameworkCore" Version="10.*-*"/>
     </ItemGroup>
 
     <ItemGroup>
